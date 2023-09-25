@@ -1,4 +1,5 @@
-# Praktikum Pemograman Web
+<h1><p align="center">Praktikum Pemograman Web</p></h1>
+
 
 <table>
   <tr>
