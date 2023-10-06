@@ -200,3 +200,5 @@ contoh html & css ini
 Selector ID akan ditampilkan oleh browser karena memiliki prioritas lebih tinggi, jika ditabrakan oleh inline CSS, Selector ID lah yang akan ditampilkan oleh browser
 
 hasilnya
+
+![Screenshot 2023-10-06 230644](https://github.com/alifamarta/Praktikum-PemogramanWeb/assets/115516820/407d0c18-3575-47ee-b04b-63a879d2c62f)
