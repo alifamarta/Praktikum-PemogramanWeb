@@ -27,4 +27,8 @@
     <td>1</td>
     <td><a href="https://github.com/alifamarta/Praktikum-PemogramanWeb/tree/main/Lab1Web">Praktikum 1</a></td>
   </tr>
+  <tr>
+    <td>2</td>
+    <td><a href="https://github.com/alifamarta/Praktikum-PemogramanWeb/tree/main/Lab2Web">Praktikum 2</a></td>
+  </tr>
 </table>
