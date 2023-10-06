@@ -1,26 +1,26 @@
 nav {
-  background: #64CCC5;
+  background: #64ccc5;
   color: #fff;
   padding: 10px;
 }
-nav a{
+nav a {
   color: #fff;
   text-decoration: none;
   padding: 10px 20px;
 }
-nav .active, 
+nav .active,
 nav a:hover {
-  background: #176B87;
+  background: #176b87;
 }
 
 /* ID Selector */
 #intro {
-  background: #053B50;
-  border: 1px solid #64CCC5;
+  background: #053b50;
+  border: 1px solid #64ccc5;
   min-height: 100px;
   padding: 10px;
 }
-#intro h1{
+#intro h1 {
   text-align: left;
   border: 0;
   color: #fff;
@@ -36,5 +36,5 @@ nav a:hover {
   text-decoration: none;
 }
 .btn-primary {
-  background: #176B87;
+  background: #176b87;
 }
