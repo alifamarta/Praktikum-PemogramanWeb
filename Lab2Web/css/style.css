@@ -7,7 +7,7 @@ nav {
 }
 nav a {
   color: #000;
-  text-decoration: underline;
+  text-decoration: underline ;
   padding: 10px 20px;
   border-right: 3px solid #000;
 }
@@ -44,5 +44,5 @@ nav a:hover {
 
 /* experiment */
 body {
-  background-image: linear-gradient(to right, #fff2d0, #d6d1ac);
+  background-image: linear-gradient(to right,#fff2d0, #d6d1ac);
 }
