@@ -150,7 +150,7 @@ hasilnya
 ![Screenshot 2023-10-06 225219](https://github.com/alifamarta/Praktikum-PemogramanWeb/assets/115516820/ee123a34-70ca-47f2-a38a-501e81acdce9)
 
 #### 2. Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan #intro h1 {...}? berikan penjelasannya! 
-Pendeklarasian elemen  ```h1{...}``` tidak memakai selector sedangkan untuk ```#intro h1{....}``` memakai selector id berawalan tanda (#)
+Pendeklarasian elemen  ```h1{...}``` tidak memakai selector sedangkan untuk ```#intro h1{...}``` memakai selector id berawalan tanda (#) dan ```intro h1{...}``` hanya akan terpanggil jika ada tag ```h1``` 
 
 #### 3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
 
