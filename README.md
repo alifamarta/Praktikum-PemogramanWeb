@@ -1,7 +1,7 @@
-<h1><p align="center">Praktikum Pemograman Web</p></h1>
+<h1 align="center">Praktikum Pemograman Web</h1>
 
 
-<table>
+<table align="center">
   <tr>
     <th colspan="2">DATA MAHASISWA</th>
   </tr>
@@ -19,7 +19,7 @@
   </tr>
 </table>
 
-<table>
+<table align="center">
   <tr>
     <th colspan="2">LINK PRAKTIKUM</th>
   </tr>
