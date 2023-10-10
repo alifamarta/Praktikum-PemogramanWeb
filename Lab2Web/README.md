@@ -1,6 +1,6 @@
 # <p align="center"> Praktikum 2: CSS Dasar</p>
 
-<table>
+<table align="center">
   <tr>
     <th colspan="2">DATA MAHASISWA</th>
   </tr>
