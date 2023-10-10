@@ -1,4 +1,4 @@
-<h1 align="center">Praktikum 1: HTML Dasarq</h1>
+<h1 align="center">Praktikum 1: HTML Dasar</h1>
 <table align="center">
   <tr>
     <th colspan="2">DATA MAHASISWA</th>
