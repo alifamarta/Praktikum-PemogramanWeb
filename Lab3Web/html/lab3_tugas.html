@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Pesanan</title>
+    <link rel="stylesheet" href="../css/lab3_tugas.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Warung Pak Slamet</h1>
+    </header>
+
+    <form>
+      <fieldset>
+        <legend>Data Pelanggan dan Pesanan</legend>
+        <p>
+          <label for="nama">Nama</label>
+          <input type="text" name="nama" id="nama" />
+        </p>
+        <p>
+          <label for="alamat">Alamat</label>
+          <input type="text" name="alamat" id="alamat" required />
+        </p>
+        <p>
+          <label for="makanan">Makanan</label>
+          <select name="makanan" id="makanan">
+            <option value="none" selected disabled hidden>Pilih Makanan</option>
+            <option value="makanan1">Nasi Goreng</option>
+            <option value="makanan2">Nasi Uduk</option>
+            <option value="makanan3">Nasi Kuning</option>
+            <option value="makanan4">Nasi Kucing</option>
+          </select>
+        </p>
+        <p>
+          <label for="lauk">Lauk</label>
+          <select name="lauk" id="lauk" multiple>
+            <option value="lauk1">Ayam Goreng</option>
+            <option value="lauk2">Telor Sambal</option>
+            <option value="lauk3">Telor Mata Sapi</option>
+            <option value="lauk4">Telor Goreng</option>
+            <option value="lauk5">Lele Goreng</option>
+            <option value="lauk6">Bebek Goreng</option>
+            <option value="lauk7">Tempe Goreng</option>
+            <option value="lauk8">Tempe Bacem</option>
+            <option value="lauk9">Tahu Goreng</option>
+            <option value="lauk10">Tahu Bacem</option>
+          </select>
+        </p>
+        <p>
+          <label for="minuman">Minuman</label>
+          <select name="minuman" id="minuman">
+            <option value="none" selected disabled hidden>Pilih Minuman</option>
+            <option value="minuman1">Es Teh</option>
+            <option value="minuman2">Teh Tawar</option>
+            <option value="minuman3">Es Jeruk Peras</option>
+            <option value="minuman4">Jus Mangga</option>
+            <option value="minuman5">Jus Alpukat</option>
+          </select>
+        </p>
+        <p>
+          <input type="submit" value="submit" class="btn-submit" />
+        </p>
+      </fieldset>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+body {
+    background-color: bisque;
+    font-family: Helvetica;
+}
+
+fieldset{
+    border-radius: 10px;
+    border: solid black;
+}
+
+form p > label{
+    display: inline-block;
+    width: 70px;
+}
+
+.btn-submit{
+    font-family: monospace;
+    color: white;
+    background-color: green;
+    padding: 12px 20px 12px;
+    
+}
