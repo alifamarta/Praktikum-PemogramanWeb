@@ -1,6 +1,6 @@
 # <p align="center"> Praktikum 2: CSS Dasar</p>
 
-<table>
+<table align="center">
   <tr>
     <th colspan="2">DATA MAHASISWA</th>
   </tr>
@@ -143,3 +143,62 @@ hasilnya
 
 hasilnya 
 ![image](https://github.com/alifamarta/Praktikum-PemogramanWeb/assets/115516820/c232310a-74ad-49bf-a439-b51ada0bb85b)
+
+## Pertanyaan
+#### 1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.
+
+![Screenshot 2023-10-06 225219](https://github.com/alifamarta/Praktikum-PemogramanWeb/assets/115516820/ee123a34-70ca-47f2-a38a-501e81acdce9)
+
+#### 2. Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan #intro h1 {...}? berikan penjelasannya! 
+Pendeklarasian elemen  ```h1{...}``` tidak memakai selector sedangkan untuk ```#intro h1{...}``` memakai selector id berawalan tanda (#) dan ```intro h1{...}``` hanya akan terpanggil jika ada tag ```h1``` 
+
+#### 3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
+
+contohnya html ini 
+```
+<!-- Deklarasi CSS Eksternal -->
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <!-- Di dalam file styles.css: p { color: blue; } -->
+
+    <!-- Deklarasi CSS Internal -->
+    <style>
+      p {
+        color: green;
+      }
+    </style>
+
+    <!-- Inline CSS -->
+    <p style="color: red">saya belajar</p>
+```
+```
+/* dalam css */
+p {
+  color: blue;
+}
+```
+dengan ini teks akan berwarna merah karena inline css memiliki prioritas tertinggi <br>
+
+hasilnya:
+![image](https://github.com/alifamarta/Praktikum-PemogramanWeb/assets/115516820/aa55e465-ab05-4c62-ab5d-32f1d522a8e0)
+
+#### 4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
+
+contoh html & css ini 
+```
+ <p id="paragraf" class="paragraf-text">saya belajar</p>
+```
+```
+#paragraf {
+    color: red;
+}
+
+.paragraf-text{
+    color: blue
+}
+```
+
+Selector ID akan ditampilkan oleh browser karena memiliki prioritas lebih tinggi, jika ditabrakan oleh inline CSS, Selector ID lah yang akan ditampilkan oleh browser
+
+hasilnya
+
+![Screenshot 2023-10-06 230644](https://github.com/alifamarta/Praktikum-PemogramanWeb/assets/115516820/407d0c18-3575-47ee-b04b-63a879d2c62f)

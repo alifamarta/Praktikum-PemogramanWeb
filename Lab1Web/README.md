@@ -1,5 +1,5 @@
-<h1><p align="center">Praktikum 1: HTML Dasar</h1>
-<table>
+<h1 align="center">Praktikum 1: HTML Dasar</h1>
+<table align="center">
   <tr>
     <th colspan="2">DATA MAHASISWA</th>
   </tr>
@@ -98,7 +98,7 @@ atur atribut paragraf
 
 ![image](https://github.com/alifamarta/Praktikum-PemogramanWeb/assets/115516820/ea08b251-c07b-4246-8446-da4e043d9571)
 
-#### Menjawab Pertanyaan
+#### Tugas
 
 <b>1. Lakukan perubahan pada kode sesuai dengan keinginan anda, amati perubahannya adakah
 error ketika terjadi kesalahan penulisan tag? </b> <br>

@@ -1,7 +1,7 @@
-<h1><p align="center">Praktikum Pemograman Web</p></h1>
+<h1 align="center">Praktikum Pemograman Web</h1>
 
 
-<table>
+<table align="center">
   <tr>
     <th colspan="2">DATA MAHASISWA</th>
   </tr>
@@ -19,16 +19,7 @@
   </tr>
 </table>
 
-<table>
-  <tr>
-    <th colspan="2">LINK PRAKTIKUM</th>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td><a href="https://github.com/alifamarta/Praktikum-PemogramanWeb/tree/main/Lab1Web">Praktikum 1</a></td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td><a href="https://github.com/alifamarta/Praktikum-PemogramanWeb/tree/main/Lab2Web">Praktikum 2</a></td>
-  </tr>
-</table>
+#### Link Praktikum
+
+- <a href="https://github.com/alifamarta/Praktikum-PemogramanWeb/tree/main/Lab1Web">Praktikum 1</a>
+- <a href="https://github.com/alifamarta/Praktikum-PemogramanWeb/tree/main/Lab2Web">Praktikum 2</a>
