@@ -247,6 +247,8 @@ Tambahkan style pada form
 
 ### Tugas
 1. Buatlah form yang menampilkan dropdown menu dan listbox dengan multiple selection.
+   
    - <a href="https://github.com/alifamarta/Praktikum-PemogramanWeb/blob/main/Lab3Web/html/lab3_tugas.html">source code</a>
    
-   ![image](https://github.com/alifamarta/Praktikum-PemogramanWeb/assets/115516820/853a0afb-abeb-4ab3-9604-f6eb90283bb3)
+   ![image](https://github.com/alifamarta/Praktikum-PemogramanWeb/assets/115516820/848b978c-8d79-4c0b-8b06-98efb256e644)
+
