@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Layout Sederhana</title>
-    <link rel="stylesheet" href="../lab4_layout/css/about_style.css">
+    <link rel="stylesheet" href="../lab4_layout/css/kontak_style.css">
 </head>
 
 <body>
@@ -17,40 +17,36 @@
         <nav>
             <a href="home.html">Home</a>
             <a href="artikel.html">Artikel</a>
-            <a href="about.html" class="active">About</a>
-            <a href="kontak.html">Kontak</a>
+            <a href="about.html">About</a>
+            <a href="kontak.html" class="active">Kontak</a>
         </nav>
-        <section class="hero">
-            <h1>About Me</h1>
-            <p>Alif Nur Fathlii Amarta
-                <br>312210326
-                <br>TI 22 A3
-            </p>
-        </section>
+
         <section class="wrapper">
             <section class="main">
-                <div class="entry">
-                    <p>Nama saya Alif Nur Fathlii Amarta, saya berkuliah di Universitas Pelita Bangsa, prodi Teknik
-                        Informatika. Saya sedang
-                        belajar cara
-                        membuat artikel dengan HTML & CSS.</p>
-                    <br>
-                    <p>Saya suka menonton film. Film favorit saya adalah Fight Club, film yang
-                        mengisahkan seorang pria yang terjebak dalam kehidupan sebagai masyarakat pekerja "kerah putih"
-                        yang terlibat klub pertarungan ilegal yang dirintis oleh penjual sabun yang bernama Tyler
-                        Durden.
+                <form>
+                    <h1 style="margin-bottom: 20px;">Contact Me</h1>
+                    <fieldset>
+                    <p>
+                        <input type="text" name="nama" id="nama" placeholder="Name" width="48" height="48" required>
                     </p>
-                    <br>
-                    <img src="https://m.media-amazon.com/images/I/81sZU-iKNGL.jpg" width="240">
-                    <br><br>
-                    <p>Saya juga suka bermain game terutama game fighting seperti Street Fighter, Tekken, dll. dan saya
-                        juga suka genre balap seperti Gran Turismo, Project Cars, dll. game favorit saya adalah Devil
-                        May Cry, game yang mengisahkan seseorang yang membasmi setan untuk mencari nafkah dan memiliki
-                        adik yang benci pada dirinya.</p>
-                    <br>
-                    <img src="https://m.media-amazon.com/images/M/MV5BMjcwNjVmMjMtZGY0NC00ZDUyLWI3MmEtOWJiMmMxNjg1OGI1XkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_FMjpg_UX1000_.jpg"
-                        width="240">
-                </div>
+
+                    <p>
+                        <input type="email" name="email" id="email" placeholder="Email address" required>
+                    </p>
+
+                    <p>
+                        <input type="text" name="subject" id="subject" placeholder="Subject">
+                    </p>
+
+                    <p>
+                        <textarea name="message" id="message" cols="32" rows="10" placeholder="Message"></textarea>
+                    </p>
+
+                    <p>
+                        <input type="submit" value="Submit">
+                    </p>
+                    </fieldset>
+                </form>
             </section>
             <aside id="sidebar">
                 <div class="widget-box">
