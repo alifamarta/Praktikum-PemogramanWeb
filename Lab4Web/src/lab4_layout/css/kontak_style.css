@@ -70,6 +70,7 @@ footer {
 
 /* form */
 fieldset{
+    border: 2px solid #4eacff;
     border-radius: 5px;
 }
 
