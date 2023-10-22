@@ -423,3 +423,76 @@ Hasilnya.
     }    
 
 ![image](https://github.com/alifamarta/Praktikum-PemogramanWeb/assets/115516820/8bf51252-819b-41a5-8285-5541c94a9bbe)
+
+### Menambahkan Konten Artikel
+Buat content artikel. Tambahkan HTML ke main content
+
+          <hr class="divider">
+          <article class="entry">
+            <h2>First featurette heading.</h2>
+            <img src="https://dummyimage.com/150/7b8a70/fff.png">
+            <p>Policía del Karma, arresten a este hombre.
+              Habla de matemáticas, zumba como un frigorífico. Es como una radio desafinada.
+              Policía del Karma, arresten a esta chica.
+              Su peinado hitleriano me hace sentir mal y nos hemos colado en su fiesta.
+              Esto es lo que obtienes cuando te metes con nosotros.</p>
+          </article>
+          <hr class="divider">
+          <article class="entry">
+            <h2>Second featurette heading</h2>
+            <img src="https://dummyimage.com/150/7b8a70/fff.png">
+            <p>Este es el lugar donde siéntate, estás a salvo ahora que has quedado atrapado en un ascensor. Hemos
+              estado tratando de localizarte, Thom.
+              Este es el lugar donde no te dolerá nunca más, el olor del aire acondicionado, los peces están boca
+              arriba, vacían todos tus bolsillos porque es hora de volver a casa.</p>
+          </article>
+
+Tambahkan CSS.
+
+    /* divider */
+    .divider {
+      border: 0px;
+      border-top: 1px solid #eee;
+      margin: 40px 0;
+    }
+    
+    /* entry */
+    .entry {
+      margin: 15px 0;
+    }
+    
+    .entry h2 {
+      margin-bottom: 20px;
+    }
+    
+    .entry p {
+      line-height: 25px;
+    }
+    
+    .entry img {
+      float: left;
+      border-radius: 5px;
+      margin-right: 15px;
+    }
+    
+    .entry .right-img {
+      float: right;
+    }
+
+Hasilnya.
+
+![image](https://github.com/alifamarta/Praktikum-PemogramanWeb/assets/115516820/b5897c4a-e3f2-408a-9fdb-4efeac5d8ec5)
+
+## Tugas
+#### 1. Tammbahkan Layout untuk menu About
+- <a href="https://github.com/alifamarta/Praktikum-PemogramanWeb/blob/main/Lab4Web/src/lab4_layout/about.html">HTML</a> &
+  <a href="https://github.com/alifamarta/Praktikum-PemogramanWeb/blob/main/Lab4Web/src/lab4_layout/css/about_style.css">CSS</a>
+
+![image](https://github.com/alifamarta/Praktikum-PemogramanWeb/assets/115516820/a2930e57-1a41-465c-9226-456490d245ed)
+
+#### 2. Tambahkan Layout untuk menu Kontak
+- <a href="https://github.com/alifamarta/Praktikum-PemogramanWeb/blob/main/Lab4Web/src/lab4_layout/kontak.html">HTML</a> &
+  <a href="https://github.com/alifamarta/Praktikum-PemogramanWeb/blob/main/Lab4Web/src/lab4_layout/css/kontak_style.css">CSS</a>
+  
+![image](https://github.com/alifamarta/Praktikum-PemogramanWeb/assets/115516820/8995f263-b671-4649-87b6-d991212833fc)
+
