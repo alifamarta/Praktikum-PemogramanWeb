@@ -55,9 +55,12 @@ nav a:hover {
 }
 
 .main {
-    float: left;
-    width: 640px;
     padding: 20px;
+}
+
+/* header */
+h1 {
+    text-align: center;
 }
 
 /* footer */
@@ -69,81 +72,44 @@ footer {
 }
 
 /* form */
-fieldset{
-    border: 2px solid #4eacff;
-    border-radius: 5px;
-}
-
-form p>label {
-    display: inline-block;
-    width: 100px;
-}
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 10px;
+    background: #2196f3;
+    text-align: center;
+    box-shadow: 0 0 1em #ccc;
+  }
 
 form input[type="text"],
 form input[type="email"] {
-    background: linear-gradient(#fff, #fbf9f9);
-    border: 1px solid #1d1d1d;
+    background: #fbf9f9;
+    box-sizing: border-box;
+    border: 5px;
     margin: 10px;
-    width: 250px;
-    height: 30px;
-    border-radius: 4px;
+    width: 300px;
+    height: 40px;
+    margin-left: auto;
+    margin-right:auto;
 }
 
-form textarea{
-    background: linear-gradient(#fff, #fbf9f9);
-    border: 1px solid #1d1d1d;
+form textarea {
+    background: #fbf9f9;
+    box-sizing: border-box;
     margin: 10px;
-    border-radius: 4px;
+    width: 300px;
+    height: 90px;
+    margin-left: auto;
+    margin-right:auto;
 }
 
 form input[type="submit"] {
-    border: 1px solid #2b83ea;
-    background-color: #2b83ea;
+    border: 1px solid #fff;
+    background: #2b83ea;
     color: #fff;
     font-weight: bold;
     padding: 12px 20px 12px;
-    margin: 10px;
-}
-
-/* sidebar area */
-#sidebar {
-    float: left;
-    width: 260px;
-    padding: 20px;
-}
-
-/* widget */
-.widget-box {
-    border: 1px solid #eee;
-    margin-bottom: 20px;
-}
-
-.widget-box .title {
-    padding: 10px 16px;
-    background-color: #428bca;
-    color: #fff;
-}
-
-.widget-box ul {
-    list-style-type: none;
-}
-
-.widget-box li {
-    border-bottom: 1px solid #eee;
-}
-
-.widget-box li a {
-    padding: 10px 16px;
-    color: #333;
-    display: block;
-    text-decoration: none;
-}
-
-.widget-box li:hover a {
-    background-color: #eee;
-}
-
-.widget-box p {
-    padding: 15px;
-    line-height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
 }
