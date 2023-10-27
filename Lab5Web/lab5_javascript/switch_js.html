@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>contoh program javascript</title>
+    <script lang="javascript">
+        function test() {
+            let num = window.prompt("Input 1-5")
+            switch (num) {
+                case "1":
+                    document.write("bilangan satu");
+                    break;
+                case "2":
+                    document.write("bilangan dua");
+                    break;
+                case "3":
+                    document.write("bilangan tiga");
+                    break;
+                case "4":
+                    document.write("bilangan empat");
+                    break;
+                case "5":
+                    document.write("bilangan lima");
+                    break;
+                default:
+                    document.write(`bilangan ${num} tidak termasuk`)
+                    break;
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="button" value="switch" onclick="test()">
+</body>
+
+</html>
