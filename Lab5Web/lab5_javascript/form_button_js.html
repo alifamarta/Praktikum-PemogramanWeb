@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>objek document</title>
+</head>
+
+<body>
+    <script lang="javascript">
+        function ubahWarnaBG(color) { document.bgColor = color; }
+        function ubahWarnaTeks(color) { document.fgColor = color; }
+    </script>
+
+    <h1>tes</h1>
+    <form>
+        <input type="button" value="Backgound Merah" onclick="ubahWarnaBG('RED')" />
+        <input type="button" value="Background Putih" onclick="ubahWarnaBG('WHITE')" />
+        <input type="button" value="Teks Kuning" onclick="ubahWarnaTeks('YELLOW')" />
+        <input type="button" value="Teks Biru" onclick="ubahWarnaTeks('BLUE')" />
+    </form>
+    <script lang="javascript">
+        document.write(`dimodifikasi terakhir pada : ${document.lastModified}`);
+    </script>
+</body>
+
+</html>
