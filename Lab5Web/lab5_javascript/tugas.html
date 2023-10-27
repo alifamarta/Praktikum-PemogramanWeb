@@ -1,9 +1,40 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Form validation</title>
-        <script>
-            document.getElementById("my")
+        <title>Form</title>
+        <link rel="stylesheet" href="../lab5_javascript/css/style.css">
+        <script lang="javascript">
+            function validForm() {
+                let name = document.getElementById("nama").value;
+                let email = document.getElementById("email").value;
+                let alamat = document.getElementById('alamat').value;
+
+                if (name != "" && email != "" && alamat != "") {
+                    return true;
+                } else{
+                    alert('ISI FORM DENGAN BENAR !!!!!!!')
+                    return false;
+                }
+            }
         </script>
     </head>
+    <body>
+        <div class="form">
+            <h1>FORM</h1>
+            <form method="post" onsubmit="return validForm()">
+                <p>
+                    <input type="text" name="nama" id="nama" placeholder="Nama">
+                </p>
+                <p>
+                    <input type="email" name="email" id="email" placeholder="email">
+                </p>
+                <p>
+                    <textarea name="alamat" id="alamat" placeholder="alamat"></textarea>
+                </p>
+                <p>
+                    <input type="submit" value="submit" class="submit">
+                </p>
+            </form>
+        </div>
+    </body>
 </html>
