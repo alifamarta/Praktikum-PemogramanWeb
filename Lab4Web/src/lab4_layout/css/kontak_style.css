@@ -58,12 +58,6 @@ nav a:hover {
     padding: 20px;
 }
 
-/* header */
-h1 {
-    text-align: center;
-    color: #fff;
-}
-
 /* footer */
 footer {
     clear: both;
@@ -73,21 +67,26 @@ footer {
 }
 
 /* form */
-form {
+.contact {
     max-width: 400px;
     margin: auto;
     padding: 10px;
-    background: #2196f3;
+    background: #fff;
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 0 1em #ccc;
 }
 
-form input[type="text"],
-form input[type="email"] {
-    background: #fbf9f9;
+.contact h1{
+    color: #1d1d1d;
+    font-weight: bold;
+}
+
+.contact input[type="text"],
+.contact input[type="email"] {
+    background: #eee;
     box-sizing: border-box;
-    border: 5px;
+    border: 1px;
     margin: 10px;
     width: 300px;
     height: 40px;
@@ -96,9 +95,10 @@ form input[type="email"] {
     font-family: "Open Sans";
 }
 
-form textarea {
-    background: #fbf9f9;
+.contact textarea {
+    background: #eee;
     box-sizing: border-box;
+    border: 1px;
     margin: 10px;
     width: 300px;
     height: 90px;
