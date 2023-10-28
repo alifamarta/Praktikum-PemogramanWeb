@@ -25,3 +25,4 @@
 - <a href="https://github.com/alifamarta/Praktikum-PemogramanWeb/tree/main/Lab2Web">Praktikum 2</a>
 - <a href="https://github.com/alifamarta/Praktikum-PemogramanWeb/tree/main/Lab3Web">Praktikum 3</a>
 - <a href="https://github.com/alifamarta/Praktikum-PemogramanWeb/tree/main/Lab4Web">Praktikum 4</a>
+- <a href="https://github.com/alifamarta/Praktikum-PemogramanWeb/tree/main/Lab5Web">Praktikum 5</a>
