@@ -319,5 +319,5 @@ Pilihan checkbox yang akan menghasilkan perhitungan otomatis
 ### 1. Buat script untuk melakukan validasi pada isian form.
 - <a href="https://github.com/alifamarta/Praktikum-PemogramanWeb/blob/main/Lab5Web/lab5_javascript/tugas.html">HTML</a> & <a href="https://github.com/alifamarta/Praktikum-PemogramanWeb/blob/main/Lab5Web/lab5_javascript/css/style.css">CSS</a>
 
-![image](https://github.com/alifamarta/Praktikum-PemogramanWeb/assets/115516820/76b99375-9993-46a2-addc-e5bbfaceb796)
-
+![image](https://github.com/alifamarta/Praktikum-PemogramanWeb/assets/115516820/114630fa-34cd-4d00-a12b-eae8cd97a605)
+![image](https://github.com/alifamarta/Praktikum-PemogramanWeb/assets/115516820/0097cce9-4144-48b7-b8b1-be3545348141)
