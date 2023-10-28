@@ -494,6 +494,7 @@ Hasilnya.
 - <a href="https://github.com/alifamarta/Praktikum-PemogramanWeb/blob/main/Lab4Web/src/lab4_layout/kontak.html">HTML</a> &
   <a href="https://github.com/alifamarta/Praktikum-PemogramanWeb/blob/main/Lab4Web/src/lab4_layout/css/kontak_style.css">CSS</a>
   
-![image](https://github.com/alifamarta/Praktikum-PemogramanWeb/assets/115516820/924cc756-f597-4775-ad24-dcec6d1a5bee)
+![image](https://github.com/alifamarta/Praktikum-PemogramanWeb/assets/115516820/ad74bb2e-692e-4b61-9ce6-e35b6c621d22)
+
 
 
