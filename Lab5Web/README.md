@@ -1,4 +1,4 @@
-![image](https://github.com/alifamarta/Praktikum-PemogramanWeb/assets/115516820/c591ab32-938b-4c58-9d5d-0c8055883bd8)<h1 align="center">Praktikum 5: Javascript</h1>
+<h1 align="center">Praktikum 5: Javascript</h1>
 
 
 <table align="center">
