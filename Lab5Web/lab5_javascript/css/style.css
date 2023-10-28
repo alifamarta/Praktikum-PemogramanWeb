@@ -10,17 +10,19 @@ h1 {
 /* form */
 .form {
     margin: auto;
+    margin-top: 10em;
     padding: 10px;
-    width: 300px;
+    width: 400px;
     background: #fff;
     box-shadow: 0 0 10px #ccc;
+    border-radius: 10px;
 }
 
 form input[type="text"],
 input[type="email"],
 textarea {
-    padding: 8px;
-    width: 280px;
+    padding: 18px;
+    width: 380px;
     background: #e9e9e9;
     border: none;
     box-sizing: border-box;
