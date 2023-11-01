@@ -28,6 +28,7 @@ header {
 header h1 {
   margin: 20px 10px;
   color: #b5b5b5;
+  font-weight: bolder;
 }
 
 /* navigasi */
@@ -47,6 +48,10 @@ header h1 {
 .nav a:hover {
   background-color: #2b83ea;
   color: white;
+}
+
+.jumbotron h1{
+  font-weight: bold;
 }
 
 /* footer */
