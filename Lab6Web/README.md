@@ -18,4 +18,5 @@
   </tr>
 </table>
 
-![Lab6Web](https://github.com/alifamarta/Praktikum-PemogramanWeb/assets/115516820/c9e70c18-a795-4173-8a97-b763964689bc)
+## Preview
+<img src="https://github.com/alifamarta/Praktikum-PemogramanWeb/assets/115516820/c9e70c18-a795-4173-8a97-b763964689bc" width="480"/>
