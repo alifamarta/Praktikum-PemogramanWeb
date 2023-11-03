@@ -17,3 +17,5 @@
     <td>TI.22.A3</td>
   </tr>
 </table>
+
+![Lab6Web](https://github.com/alifamarta/Praktikum-PemogramanWeb/assets/115516820/c9e70c18-a795-4173-8a97-b763964689bc)
