@@ -107,4 +107,5 @@ Akses dengan cara <a href="http://localhost/lab7_php_dasar/latihan2.php?nama=Tho
         </body>
     </html>
 
-![Web capture_13-11-2023_102739_localhost](https://github.com/alifamarta/Praktikum-PemogramanWeb/assets/115516820/1c1d7515-6a71-4d65-813b-b376153a7930)
+![Web capture_14-11-2023_214421_localhost](https://github.com/alifamarta/Praktikum-PemogramanWeb/assets/115516820/03c0cf1c-5a51-47ab-a36e-669d728c08e7)
+
